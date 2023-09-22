@@ -1,0 +1,19 @@
+{
+<<<<<<< HEAD
+  "rewrites": [{ "source": "/(.*)", "destination": "./" }]
+=======
+  "version": 2,
+  "builds": [
+    {
+      "src": "./env/main.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ]
+>>>>>>> 5119fb5 (idkkk)
+}
